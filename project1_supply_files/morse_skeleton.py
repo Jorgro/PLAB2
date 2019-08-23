@@ -42,6 +42,22 @@ class mocoder():
         self.current_symbol = ''
 
     # This should receive an integer in range 1-4 from the Arduino via a serial port
+    def update_current_symbol(self, signal):
+        self.current_symbol += str(sig)
+
+    def handle_symbol_end(self):
+        self.update_current_word(mocoder._morse_codes.get(self.current_symbol))
+        self.current_symbol = ''
+
+    def update_current_word(self, symbol):
+        self.current_word += symbol
+
+    def handle_word_end(self):
+        self.handle_symbol_end()
+        self.current_message += self.current_word + ' '
+        print(self.current_word)
+        self.current_word = ''
+
     def read_one_signal(self, port=None):
         connection = port if port else self.serial_port
         while True:
@@ -66,17 +82,14 @@ class mocoder():
 
         if (sig == 0 or sig == 1):
             # print(sig)
-            self.current_symbol += str(sig)
+            self.update_current_symbol(sig)
             # print(self.current_symbol)
             # print(mocoder._morse_codes.get(self.current_symbol))
         elif (sig == 3 and self.current_symbol != ''):
-            self.current_word += mocoder._morse_codes.get(self.current_symbol)
-            self.current_symbol = ''
+            self.handle_symbol_end()
+
         elif (sig == 4 and self.current_symbol != ''):
-            self.current_word += mocoder._morse_codes.get(self.current_symbol)
-            self.current_symbol = ''
-            self.current_message += self.current_word + ' '
-            self.current_word = ''
+            self.handle_word_end()
         elif (sig == 5):
             self.reset()
         print(self.current_message, self.current_word)
