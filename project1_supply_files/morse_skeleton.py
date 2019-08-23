@@ -43,7 +43,7 @@ class mocoder():
 
     # This should receive an integer in range 1-4 from the Arduino via a serial port
     def update_current_symbol(self, signal):
-        self.current_symbol += str(sig)
+        self.current_symbol += str(signal)
 
     def handle_symbol_end(self):
         self.update_current_word(mocoder._morse_codes.get(self.current_symbol))
