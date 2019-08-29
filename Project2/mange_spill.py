@@ -5,7 +5,6 @@ from historiker import Historiker
 from mest_vanlig import MestVanlig
 
 
-
 class MangeSpill:
 
     def __init__(self, spiller1, spiller2, antall_spill):
@@ -38,6 +37,7 @@ class MangeSpill:
 
         plt.plot(x_axis, y_1_axis, label='Spiller 1')
         #plt.plot(x, y2, label='Spiller 2')
+
         plt.show()
 
 

@@ -16,3 +16,4 @@ class MestVanlig(Spiller):
             dictionary[i] += 1
 
         return Spiller.finn_beste_aksjon(dictionary, self.aksjoner)
+

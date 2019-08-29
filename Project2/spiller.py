@@ -6,6 +6,8 @@ from aksjon import Aksjon
 
 
 """ Klassen Spiller. """
+
+
 class Spiller:
 
     __metaclass__ = abc.ABCMeta
@@ -60,6 +62,5 @@ class Spiller:
         if len(mest_spilt) > 1:
             aksjon = random.choice(mest_spilt)[0]
             return Spiller.finn_kompliment(aksjon, aksjoner)
-
 
         return Spiller.finn_kompliment(mest_spilt[0][0], aksjoner)

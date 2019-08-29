@@ -11,3 +11,5 @@ class Tilfeldig(Spiller):
         """ Velger et tilfeldig valg fra aksjoner. """
 
         return random.choice(Spiller.aksjoner)
+
+
