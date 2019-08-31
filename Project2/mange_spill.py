@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from enkelt_spill import EnkeltSpill
 from historiker import Historiker
 from mest_vanlig import MestVanlig
+from sekvensiell import Sekvensiell
 
 
 class MangeSpill:
@@ -41,5 +42,5 @@ class MangeSpill:
         plt.show()
 
 
-TURNERING = MangeSpill(Historiker(2), MestVanlig(), 100)
+TURNERING = MangeSpill(Historiker(2), Sekvensiell(), 100)
 TURNERING.arranger_turnering()

@@ -35,7 +35,7 @@ class EnkeltSpill:
 
     def __str__(self):
 
-        tekst = f'{self.spiller1.oppgi_navn()} valgte {self.valg1}. ' \
+        tekst = f'{self.spiller1.oppgi_navn()} valgte {self.valg1}. '\
                 f'{self.spiller2.oppgi_navn()} valgte {self.valg2}. {self.resultat}'
         return tekst
 
