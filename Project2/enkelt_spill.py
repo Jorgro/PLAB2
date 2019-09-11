@@ -17,7 +17,7 @@ class EnkeltSpill:
     def gjennomfoer_spill(self):
         self.valg1 = self.spiller1.velg_aksjon()
         self.valg2 = self.spiller2.velg_aksjon()
-
+        
         if self.valg1 == self.valg2:
             self.spiller1.motta_resultat(self.valg1, self.valg2, 0.5)
             self.spiller2.motta_resultat(self.valg2, self.valg1, 0.5)

@@ -11,6 +11,8 @@ class Historiker(Spiller):
         dictionary = self.subfinder()
         return Spiller.finn_beste_aksjon(dictionary, self.aksjoner)
 
+
+
     def subfinder(self):
         dictionary = {"stein": 0, "saks": 0, "papir": 0}
 

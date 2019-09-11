@@ -29,7 +29,6 @@ class MangeSpill:
         x_axis = np.arange(1, self.antall_spill + 1, 1)
         y_1_axis = np.zeros(self.antall_spill)
         y_2_axis = np.zeros(self.antall_spill)
-
         index = 0
         for i in self.resultater:
             y_1_axis[index] = i[0] / i[2]
