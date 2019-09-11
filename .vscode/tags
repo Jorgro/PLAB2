@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+morse_skeleton.py	../Project1/morse_skeleton.py	1;"	kind:file	line:1
+arduino_connect	../Project1/morse_skeleton.py	/^import arduino_connect$/;"	kind:namespace	line:8
+_dot	../Project1/morse_skeleton.py	/^_dot = 1$/;"	kind:variable	line:13
+_dash	../Project1/morse_skeleton.py	/^_dash = 2$/;"	kind:variable	line:14
+_symbol_pause	../Project1/morse_skeleton.py	/^_symbol_pause = 3$/;"	kind:variable	line:15
+_word_pause	../Project1/morse_skeleton.py	/^_word_pause = 4$/;"	kind:variable	line:16
+_reset	../Project1/morse_skeleton.py	/^_reset = 5$/;"	kind:variable	line:17
+mocoder	../Project1/morse_skeleton.py	/^class mocoder():$/;"	kind:class	line:21
+_morse_codes	../Project1/morse_skeleton.py	/^    _morse_codes = {'01': 'a', '1000': 'b', '1010': 'c', '100': 'd', '0': 'e', '0010': 'f', '110': 'g', '0000': 'h', '00': 'i', '0111': 'j',$/;"	kind:variable	line:28
+__init__	../Project1/morse_skeleton.py	/^    def __init__(self, sport=True):$/;"	kind:member	line:34
+reset	../Project1/morse_skeleton.py	/^    def reset(self):$/;"	kind:member	line:39
+update_current_symbol	../Project1/morse_skeleton.py	/^    def update_current_symbol(self, signal):$/;"	kind:member	line:45
+handle_symbol_end	../Project1/morse_skeleton.py	/^    def handle_symbol_end(self):$/;"	kind:member	line:48
+update_current_word	../Project1/morse_skeleton.py	/^    def update_current_word(self, symbol):$/;"	kind:member	line:52
+handle_word_end	../Project1/morse_skeleton.py	/^    def handle_word_end(self):$/;"	kind:member	line:55
+read_one_signal	../Project1/morse_skeleton.py	/^    def read_one_signal(self, port=None):$/;"	kind:member	line:61
+decoding_loop	../Project1/morse_skeleton.py	/^    def decoding_loop(self):$/;"	kind:member	line:74
+process_signal	../Project1/morse_skeleton.py	/^    def process_signal(self, sig):$/;"	kind:member	line:81
+m	../Project1/morse_skeleton.py	/^m = mocoder()$/;"	kind:variable	line:111
+arduino_connect.py	../Project1/arduino_connect.py	1;"	kind:file	line:1
+__author__	../Project1/arduino_connect.py	/^__author__ = 'hakon0601'$/;"	kind:variable	line:1
+serial	../Project1/arduino_connect.py	/^import serial$/;"	kind:namespace	line:10
+pc_connect	../Project1/arduino_connect.py	/^def pc_connect():$/;"	kind:function	line:18
+basic_connect	../Project1/arduino_connect.py	/^def basic_connect(arport='\/dev\/cu.wchusbserial14140'):$/;"	kind:function	line:35
+Person.py	../Project3/Person.py	1;"	kind:file	line:1
+Person	../Project3/Person.py	/^class Person:$/;"	kind:class	line:3
+__init__	../Project3/Person.py	/^    def __init__(self, key):$/;"	kind:member	line:5
+set_key	../Project3/Person.py	/^    def set_key(self):$/;"	kind:member	line:11
+get_key	../Project3/Person.py	/^    def get_key(self):$/;"	kind:member	line:14
+crypto_utils.py	../Project3/crypto_utils.py	1;"	kind:file	line:1
+itertools	../Project3/crypto_utils.py	/^import itertools$/;"	kind:namespace	line:1
+math	../Project3/crypto_utils.py	/^import math$/;"	kind:namespace	line:2
+random	../Project3/crypto_utils.py	/^import random$/;"	kind:namespace	line:3
+__author__	../Project3/crypto_utils.py	/^__author__ = 'Helge Langseth'$/;"	kind:variable	line:5
+__version__	../Project3/crypto_utils.py	/^__version__ = "0.1"$/;"	kind:variable	line:6
+__project__	../Project3/crypto_utils.py	/^__project__ = "Cryptography"$/;"	kind:variable	line:7
+modular_inverse	../Project3/crypto_utils.py	/^def modular_inverse(a, m):$/;"	kind:function	line:10
+extended_gcd	../Project3/crypto_utils.py	/^    def extended_gcd(_a, _b):$/;"	kind:function	line:18
+blocks_from_text	../Project3/crypto_utils.py	/^def blocks_from_text(text, block_size):$/;"	kind:function	line:48
+text_from_blocks	../Project3/crypto_utils.py	/^def text_from_blocks(blocks, no_bits):$/;"	kind:function	line:69
+rabin_miller_is_prime	../Project3/crypto_utils.py	/^def rabin_miller_is_prime(n, k=100):$/;"	kind:function	line:87
+basic_is_prime	../Project3/crypto_utils.py	/^    def basic_is_prime(_n):$/;"	kind:function	line:102
+get_new_x	../Project3/crypto_utils.py	/^    def get_new_x():$/;"	kind:function	line:208
+generate_random_prime	../Project3/crypto_utils.py	/^def generate_random_prime(bits, prime_test=rabin_miller_is_prime):$/;"	kind:function	line:237
+get_random_t	../Project3/crypto_utils.py	/^    def get_random_t():$/;"	kind:function	line:247
+Cypher.py	../Project3/Cypher.py	1;"	kind:file	line:1
+tilfeldig.py	../Project2/tilfeldig.py	1;"	kind:file	line:1
+random	../Project2/tilfeldig.py	/^import random$/;"	kind:namespace	line:3
+Spiller	../Project2/tilfeldig.py	/^from spiller import Spiller$/;"	kind:namespace	line:4
+Tilfeldig	../Project2/tilfeldig.py	/^class Tilfeldig(Spiller):$/;"	kind:class	line:7
+velg_aksjon	../Project2/tilfeldig.py	/^    def velg_aksjon(self):$/;"	kind:member	line:10
+spiller.py	../Project2/spiller.py	1;"	kind:file	line:1
+abc	../Project2/spiller.py	/^import abc$/;"	kind:namespace	line:3
+random	../Project2/spiller.py	/^import random$/;"	kind:namespace	line:4
+Aksjon	../Project2/spiller.py	/^from aksjon import Aksjon$/;"	kind:namespace	line:5
+Spiller	../Project2/spiller.py	/^class Spiller:$/;"	kind:class	line:11
+__metaclass__	../Project2/spiller.py	/^    __metaclass__ = abc.ABCMeta$/;"	kind:variable	line:13
+stein	../Project2/spiller.py	/^    stein = Aksjon("stein")$/;"	kind:variable	line:15
+saks	../Project2/spiller.py	/^    saks = Aksjon("saks")$/;"	kind:variable	line:16
+papir	../Project2/spiller.py	/^    papir = Aksjon("papir")$/;"	kind:variable	line:17
+aksjoner	../Project2/spiller.py	/^    aksjoner = [stein, saks, papir]$/;"	kind:variable	line:19
+__init__	../Project2/spiller.py	/^    def __init__(self):$/;"	kind:member	line:21
+velg_aksjon	../Project2/spiller.py	/^    def velg_aksjon(self):$/;"	kind:member	line:27
+motta_resultat	../Project2/spiller.py	/^    def motta_resultat(self, selv_valgt, andre_valgt, poeng):$/;"	kind:member	line:30
+oppgi_navn	../Project2/spiller.py	/^    def oppgi_navn(self):$/;"	kind:member	line:35
+finn_kompliment	../Project2/spiller.py	/^    def finn_kompliment(aksjon, aksjoner):$/;"	kind:member	line:39
+finn_beste_aksjon	../Project2/spiller.py	/^    def finn_beste_aksjon(dictionary, aksjoner):$/;"	kind:member	line:46
+historiker.py	../Project2/historiker.py	1;"	kind:file	line:1
+Spiller	../Project2/historiker.py	/^from spiller import Spiller$/;"	kind:namespace	line:1
+Historiker	../Project2/historiker.py	/^class Historiker(Spiller):$/;"	kind:class	line:4
+__init__	../Project2/historiker.py	/^    def __init__(self, husk=1):$/;"	kind:member	line:6
+velg_aksjon	../Project2/historiker.py	/^    def velg_aksjon(self):$/;"	kind:member	line:10
+subfinder	../Project2/historiker.py	/^    def subfinder(self):$/;"	kind:member	line:16
+sekvensiell.py	../Project2/sekvensiell.py	1;"	kind:file	line:1
+Spiller	../Project2/sekvensiell.py	/^from spiller import Spiller$/;"	kind:namespace	line:1
+Sekvensiell	../Project2/sekvensiell.py	/^class Sekvensiell(Spiller):$/;"	kind:class	line:4
+__init__	../Project2/sekvensiell.py	/^    def __init__(self):$/;"	kind:member	line:6
+velg_aksjon	../Project2/sekvensiell.py	/^    def velg_aksjon(self):$/;"	kind:member	line:10
+mange_spill.py	../Project2/mange_spill.py	1;"	kind:file	line:1
+np	../Project2/mange_spill.py	/^import numpy as np$/;"	kind:namespace	line:1
+matplotlib	../Project2/mange_spill.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../Project2/mange_spill.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+EnkeltSpill	../Project2/mange_spill.py	/^from enkelt_spill import EnkeltSpill$/;"	kind:namespace	line:3
+Historiker	../Project2/mange_spill.py	/^from historiker import Historiker$/;"	kind:namespace	line:4
+MestVanlig	../Project2/mange_spill.py	/^from mest_vanlig import MestVanlig$/;"	kind:namespace	line:5
+Sekvensiell	../Project2/mange_spill.py	/^from sekvensiell import Sekvensiell$/;"	kind:namespace	line:6
+MangeSpill	../Project2/mange_spill.py	/^class MangeSpill:$/;"	kind:class	line:9
+__init__	../Project2/mange_spill.py	/^    def __init__(self, spiller1, spiller2, antall_spill):$/;"	kind:member	line:11
+arranger_turnering	../Project2/mange_spill.py	/^    def arranger_turnering(self):$/;"	kind:member	line:17
+plott_graf	../Project2/mange_spill.py	/^    def plott_graf(self):$/;"	kind:member	line:28
+TURNERING	../Project2/mange_spill.py	/^TURNERING = MangeSpill(Historiker(2), Sekvensiell(), 100)$/;"	kind:variable	line:44
+test.py	../Project2/test.py	1;"	kind:file	line:1
+Spiller	../Project2/test.py	/^from spiller import Spiller$/;"	kind:namespace	line:3
+Aksjon	../Project2/test.py	/^from aksjon import Aksjon$/;"	kind:namespace	line:4
+Test	../Project2/test.py	/^class Test(Spiller):$/;"	kind:class	line:7
+test_sekvens	../Project2/test.py	/^    test_sekvens = ($/;"	kind:variable	line:10
+__init__	../Project2/test.py	/^    def __init__(self):$/;"	kind:member	line:14
+velg_aksjon	../Project2/test.py	/^    def velg_aksjon(self):$/;"	kind:member	line:18
+aksjon.py	../Project2/aksjon.py	1;"	kind:file	line:1
+Aksjon	../Project2/aksjon.py	/^class Aksjon:$/;"	kind:class	line:1
+__init__	../Project2/aksjon.py	/^    def __init__(self, aksjon):$/;"	kind:member	line:3
+__str__	../Project2/aksjon.py	/^    def __str__(self):$/;"	kind:member	line:9
+__eq__	../Project2/aksjon.py	/^    def __eq__(self, andre):$/;"	kind:member	line:12
+__gt__	../Project2/aksjon.py	/^    def __gt__(self, andre):$/;"	kind:member	line:15
+sett_kompliment	../Project2/aksjon.py	/^    def sett_kompliment(self):$/;"	kind:member	line:26
+mest_vanlig.py	../Project2/mest_vanlig.py	1;"	kind:file	line:1
+random	../Project2/mest_vanlig.py	/^import random$/;"	kind:namespace	line:1
+Spiller	../Project2/mest_vanlig.py	/^from spiller import Spiller$/;"	kind:namespace	line:2
+MestVanlig	../Project2/mest_vanlig.py	/^class MestVanlig(Spiller):$/;"	kind:class	line:7
+velg_aksjon	../Project2/mest_vanlig.py	/^    def velg_aksjon(self):$/;"	kind:member	line:9
+enkelt_spill.py	../Project2/enkelt_spill.py	1;"	kind:file	line:1
+test	../Project2/enkelt_spill.py	/^import test$/;"	kind:namespace	line:4
+Historiker	../Project2/enkelt_spill.py	/^from historiker import Historiker$/;"	kind:namespace	line:5
+EnkeltSpill	../Project2/enkelt_spill.py	/^class EnkeltSpill:$/;"	kind:class	line:8
+__init__	../Project2/enkelt_spill.py	/^    def __init__(self, spiller1, spiller2):$/;"	kind:member	line:10
+gjennomfoer_spill	../Project2/enkelt_spill.py	/^    def gjennomfoer_spill(self):$/;"	kind:member	line:17
+__str__	../Project2/enkelt_spill.py	/^    def __str__(self):$/;"	kind:member	line:36
+SPILLER_1	../Project2/enkelt_spill.py	/^SPILLER_1 = Historiker(3)$/;"	kind:variable	line:43
+SPILLER_2	../Project2/enkelt_spill.py	/^SPILLER_2 = test.Test()$/;"	kind:variable	line:44
+spill	../Project2/enkelt_spill.py	/^    spill = EnkeltSpill(SPILLER_1, SPILLER_2)$/;"	kind:variable	line:47
